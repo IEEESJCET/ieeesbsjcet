@@ -110,9 +110,9 @@
     //font-family: CS;
     text-decoration: none;
     font-size: 1rem;
-    padding: 12px 25px;
+    padding: 8px 18px;
     border-radius: 100px;
-    animation: moveInFromBottom 2s 1.6s;
+    animation: moveInFromBottom 2s 2s;
     animation-fill-mode: backwards;
 }
 
@@ -176,7 +176,6 @@
         padding-left: 2rem;
         
     }
-
 } */
 
 
@@ -277,8 +276,9 @@ nav {
 	top: 0;
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 5%;
-	height: 60px;
-	//background-color: #3e65da;
+	height: 100px;
+    //background-color: #3e65da;
+    transition: .5s;
 }
 nav .logo {
 	float: left;
@@ -337,6 +337,8 @@ nav .icon-burger .line {
 nav.sticky {
     background-color: #fff;
     //padding: 15px 70px;
+
+    height: 60px;
     -webkit-box-shadow: 8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 -moz-box-shadow:    8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
@@ -363,6 +365,7 @@ box-shadow: 1px 5px 5px -1px rgba(0,0,0,0.11);
 
 
 }
+
 
 nav.sticky ul li a {
     color: #555;

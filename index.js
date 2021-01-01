@@ -1,3 +1,8 @@
+window.addEventListener("scroll", function() {
+  var nav = document.querySelector("nav");
+  nav.classList.toggle("sticky", window.scrollY > 200)
+})
+
 
 var q = 0;
 var txt = 'We technology for the greater good.';
@@ -24,38 +29,32 @@ function typeWriter() {
         {
             document.getElementById("wec").innerHTML = 'We <span class="bg-white-txt">c</span>';
 
-            //sleep(speed);
-            //setTimeout(typeWriter, speed);
+            
 
 
             document.getElementById("wec").innerHTML = 'We <span class="bg-white-txt">cr</span>';
 
-            //sleep(speed);
-            //setTimeout(typeWriter, speed);
+            
 
 
             document.getElementById("wec").innerHTML = 'We <span class="bg-white-txt">cre</span>';
 
-            //sleep(speed);
-            //setTimeout(typeWriter, speed);
+            
 
 
             document.getElementById("wec").innerHTML = 'We <span class="bg-white-txt">crea</span>';
 
-            //sleep(speed);
-            //setTimeout(typeWriter, speed);
+            
 
 
             document.getElementById("wec").innerHTML = 'We <span class="bg-white-txt">creat</span>';
 
-            //sleep(speed);
-            //setTimeout(typeWriter, speed);
+            
 
 
             document.getElementById("wec").innerHTML = 'We <span class="bg-white-txt">create</span>';
 
-            //sleep(speed);
-           //setTimeout(typeWriter, speed);
+           
         }
 
         if(document.getElementById("wec").innerText == "We create technology")

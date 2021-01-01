@@ -17,7 +17,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     line-height: 1.7;
-    //font-size: 1.6rem;
+    
     color: #777;
     box-sizing: border-box;
     
@@ -28,12 +28,12 @@
   .header {
     background-image: url(images/grp.jpg);
     background-image: linear-gradient(to right bottom, #000000c5, #000000b7), url(images/grp.jpg);
-   // background-attachment: fixed;
+   
   background-position: center; 
-    /* /background-repeat: no-repeat; */
+   
     background-size: cover;
     height: 100vh;
-    //width: 100vw;
+    
     box-sizing: border-box;
 }
 
@@ -75,13 +75,13 @@
     color: #fff;
     position: relative;
     margin: 0 15px;
-    //font-family: 'Josefin Sans';
+   
 }
 
 
 .we-create {
     color: white;
-    //font-family: 'Poppins';
+   
     letter-spacing: -1px;
     font-size: 3.5rem;
     line-height: 5rem;
@@ -98,16 +98,16 @@
 }
 .bg-white-txt {
     background-color: royalblue;
-    //color: royalblue;
+    
     padding: 0 5px;
-    //padding: 0;
+   
     
 }
 
 .joinus {
     background-color: royalblue;
     color: #fff;
-    //font-family: CS;
+    
     text-decoration: none;
     font-size: 1rem;
     padding: 8px 18px;
@@ -166,17 +166,7 @@
     }
 } 
 
-/* @media (max-width: 500px) { 
-    .we-create {
-        font-size: 2.5rem;
-        line-height: 3rem;
-    }
-    .header-main-content {
-        padding-top: 16rem;
-        padding-left: 2rem;
-        
-    }
-} */
+
 
 
 .navbar {
@@ -247,7 +237,7 @@ box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
     /* /background-repeat: no-repeat; */
     background-size: cover;
     height: 30vh;
-    //width: 100vw;
+   
     box-sizing: border-box;
 }
 
@@ -336,27 +326,10 @@ nav .icon-burger .line {
 
 nav.sticky {
     background-color: #fff;
-    //padding: 15px 70px;
+    
 
     height: 60px;
-    -webkit-box-shadow: 8px 8px 22px 0px rgba(50, 50, 50, 0.27);
--moz-box-shadow:    8px 8px 22px 0px rgba(50, 50, 50, 0.27);
-box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
-
-box-shadow: 10px 9px 9px -1px rgba(0,0,0,0.05);
--webkit-box-shadow: 10px 9px 9px -1px rgba(0,0,0,0.05);
--moz-box-shadow: 10px 9px 9px -1px rgba(0,0,0,0.05);
-
-
-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.11);
--webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.11);
--moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.11);
-
-
-box-shadow: 1px 10px 5px -1px rgba(0,0,0,0.11);
--webkit-box-shadow: 1px 10px 5px -1px rgba(0,0,0,0.11);
--moz-box-shadow: 1px 10px 5px -1px rgba(0,0,0,0.11);
-
+   
 
 box-shadow: 1px 5px 5px -1px rgba(0,0,0,0.11);
 -webkit-box-shadow: 1px 5px 5px -1px rgba(0,0,0,0.11);
@@ -480,7 +453,7 @@ box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 }
 .footer1 h1{
 	font-size: 30px;
-	//margin-bottom: 30px;
+	
 }
 .footer1 i{
 	margin: 50px 20px;
@@ -497,9 +470,7 @@ box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 	margin: 0 auto;
 }
 .copyright{
-	/* display: flex;
-	justify-content: space-around;
-	color: grey; */
+	
     padding: 30px;
     text-align: center;
 	font-weight: 300;

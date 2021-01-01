@@ -340,6 +340,28 @@ nav.sticky {
     -webkit-box-shadow: 8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 -moz-box-shadow:    8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
+
+box-shadow: 10px 9px 9px -1px rgba(0,0,0,0.05);
+-webkit-box-shadow: 10px 9px 9px -1px rgba(0,0,0,0.05);
+-moz-box-shadow: 10px 9px 9px -1px rgba(0,0,0,0.05);
+
+
+box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.11);
+-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.11);
+-moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.11);
+
+
+box-shadow: 1px 10px 5px -1px rgba(0,0,0,0.11);
+-webkit-box-shadow: 1px 10px 5px -1px rgba(0,0,0,0.11);
+-moz-box-shadow: 1px 10px 5px -1px rgba(0,0,0,0.11);
+
+
+box-shadow: 1px 5px 5px -1px rgba(0,0,0,0.11);
+-webkit-box-shadow: 1px 5px 5px -1px rgba(0,0,0,0.11);
+-moz-box-shadow: 1px 5px 5px -1px rgba(0,0,0,0.11);
+
+
+
 }
 
 nav.sticky ul li a {
@@ -440,7 +462,11 @@ nav.sticky .logo {
 }
 .footer{
     margin-top: 80px;
-    margin-left: 80px;
+    padding-left: 80px;
+    
+    -webkit-box-shadow: 8px 8px 22px 0px rgba(50, 50, 50, 0.27);
+-moz-box-shadow:    8px 8px 22px 0px rgba(50, 50, 50, 0.27);
+box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 }
 .col-4{
 	min-height: 200px;
@@ -451,7 +477,7 @@ nav.sticky .logo {
 }
 .footer1 h1{
 	font-size: 30px;
-	margin-bottom: 30px;
+	//margin-bottom: 30px;
 }
 .footer1 i{
 	margin: 50px 20px;
@@ -468,10 +494,11 @@ nav.sticky .logo {
 	margin: 0 auto;
 }
 .copyright{
-	display: flex;
+	/* display: flex;
 	justify-content: space-around;
-	color: grey;
-	padding: 30px;
+	color: grey; */
+    padding: 30px;
+    text-align: center;
 	font-weight: 300;
 }
 /* footer end */
@@ -479,4 +506,11 @@ nav.sticky .logo {
 .Social i:nth-child(1) {
     margin-left: 0;
     padding-left: 0;
+}
+
+
+@media screen and (max-width: 410px) {
+    .footer {
+        padding-left: 10px;
+    }
 }

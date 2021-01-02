@@ -234,7 +234,7 @@ box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
     background-image: linear-gradient(to right bottom, #000000c5, #000000b7), url(images/grp.jpg);
    background-attachment: fixed;
   background-position: center; 
-    /* /background-repeat: no-repeat; */
+   
     background-size: cover;
     height: 30vh;
    
@@ -267,7 +267,7 @@ nav {
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 5%;
 	height: 100px;
-    //background-color: #3e65da;
+    
     transition: .5s;
 }
 nav .logo {
@@ -405,6 +405,9 @@ nav.sticky .logo {
     }
 
     
+
+    
+    
 }
 
 
@@ -483,7 +486,7 @@ box-shadow:         8px 8px 22px 0px rgba(50, 50, 50, 0.27);
 }
 
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 675px) {
     .footer {
         padding-left: 10px;
     }

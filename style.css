@@ -277,7 +277,8 @@ nav .logo {
 	display: flex;
 	align-items: center;
 	font-size: 24px;
-	color: #fff;
+    color: #fff;
+    filter: invert(97%) sepia(77%) saturate(0%) hue-rotate(40deg) brightness(103%) contrast(102%);
 }
 nav .links {
 	float: right;
@@ -299,7 +300,8 @@ nav .links a {
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
-	text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 #nav-toggle {
 	position: absolute;
@@ -348,6 +350,8 @@ nav.sticky ul li a {
 
 nav.sticky .logo {
     color: royalblue;
+    
+    filter: invert(60%) sepia(85%) saturate(6794%) hue-rotate(218deg) brightness(96%) contrast(83%);
 }
 
 

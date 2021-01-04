@@ -315,10 +315,10 @@ nav .icon-burger {
 	transform: translateY(-50%);
 }
 nav .icon-burger .line {
-	width: 30px;
-	height: 5px;
+	width: 25px;
+	height: 3px;
 	background-color: #fff;
-	margin: 5px;
+	margin: 4px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
@@ -391,10 +391,10 @@ nav.sticky .logo {
 		display: block;
 	}
 	nav :checked ~ .icon-burger .line:nth-child(1) {
-		transform: translateY(10px) rotate(225deg);
+		transform: translateY(7px) rotate(225deg);
 	}
 	nav :checked ~ .icon-burger .line:nth-child(3) {
-		transform: translateY(-10px) rotate(-225deg);
+		transform: translateY(-7px) rotate(-225deg);
 	}
 	nav :checked ~ .icon-burger .line:nth-child(2) {
 		opacity: 0;
@@ -421,6 +421,61 @@ nav.sticky .logo {
 
 
 
+
+/* about */
+.about {
+    display: flex;
+    max-width: 80vw;
+    margin: 100px auto;
+    justify-content: space-around;
+    text-align: start;
+    
+
+}
+
+.about-child1 {
+    margin-right: 30px;
+}
+
+.about-child2{
+    margin-left: 30px;
+}
+
+.about-content {
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 640px) {
+    .about {
+        flex-direction: column;
+    }
+    .about-child1 {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .about-child2{
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+}
+/* about end */
+
+
+
+
+
+
+
+
+
+
+.instaembed {
+    max-width: 80vw;
+    margin: 60px auto;
+    border-radius: 30px;
+}
 
 
 
